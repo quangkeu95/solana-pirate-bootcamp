@@ -1,0 +1,21 @@
+[workspace]
+resolver = "2"
+members = [
+    # "quest-1/**/*",
+    # "quest-2/**/*",
+    # "quest-3/**/*",
+    # "quest-4/**/*",
+    # "quest-5/**/*",
+    # "quest-6/**/*",
+    # "quest-7/**/*",
+    "quest-1-rs"
+]
+
+[workspace.dependencies]
+solana-sdk = { version = "1" }
+solana-client = { version = "1"}
+tracing = { version = "0.1" }
+tracing-subscriber = { version = "0.3", features = ["env-filter"]}
+mpl-token-metadata = { version = "3"}
+spl-token = { version = "4" }
+spl-associated-token-account = { version = "2" }

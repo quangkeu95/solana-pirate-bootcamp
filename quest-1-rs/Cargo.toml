@@ -1,0 +1,18 @@
+[package]
+name = "quest-1-rs"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "simple_tx"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+solana-sdk = { workspace = true }
+solana-client = { workspace = true }
+tracing = { workspace = true }
+tracing-subscriber = { workspace = true }
+mpl-token-metadata = { workspace = true }
+spl-token = { workspace = true }
+spl-associated-token-account = { workspace = true }

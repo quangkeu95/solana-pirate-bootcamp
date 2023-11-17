@@ -1,0 +1,10 @@
+notion.md
+.DS_Store
+node_modules
+target
+/**/*/node_modules
+/**/*/node_modules
+/**/*/.env
+
+.env
+test-ledger/
