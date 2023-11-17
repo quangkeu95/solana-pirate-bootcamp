@@ -1,4 +1,4 @@
-# 🏴‍☠️ Solana Pirate Bootcamp
+# 🏴‍☠️ Solana Pirate Bootcamp (fork of [Original Bootcamp](https://github.com/solana-developers/pirate-bootcamp))
 
 <p width="full" margin="auto" align="center" style = "background:gray"><img src="https://raw.githubusercontent.com/solana-developers/pirate-bootcamp/main/assets/ship-fire-1.png" alt="ship" width="350" margin="auto" align="center" bg="white"/></p>
 
