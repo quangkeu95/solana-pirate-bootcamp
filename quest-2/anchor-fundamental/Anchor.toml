@@ -1,0 +1,20 @@
+[toolchain]
+
+[features]
+seeds = false
+skip-lint = false
+
+[programs.localnet]
+anchor_fundamental = "GAWy29t3Z2JrKQ8Rt3RjE1hyEXsxvhdAJvWFyKvwjTdN"
+mint-token = "2g8rYa2oi8mB3aNEsB7R9hSdwDoqh29dr4b3v3bSX95Y"
+token-minter = "ByLuugnVw2LSxdZDapEe9NMXkNeoZR2KyhDMnF4QaXgD"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "Localnet"
+wallet = "/Users/quangkeu95/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
